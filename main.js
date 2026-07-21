@@ -1,15 +1,15 @@
 // main.js
 
 
-function randomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+functionrandomNumber(min, max) {
+    returnMath.floor(Math.random() * (max - min + 1)) + min;
 }
 
 
-let divs = document.querySelectorAll(".grid-container div");
+letdivs = document.querySelectorAll(".grid-container div");
 
 
-function randomize() {
+functionrandomize() {
     console.log(divs.length, "randomize!");
 
 
