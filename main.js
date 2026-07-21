@@ -1,7 +1,7 @@
 // main.js
 
 
-functionrandomNumber(min, max) {
+function randomNumber(min, max) {
     returnMath.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -9,15 +9,15 @@ functionrandomNumber(min, max) {
 letdivs = document.querySelectorAll(".grid-container div");
 
 
-functionrandomize() {
+function randomize() {
     console.log(divs.length, "randomize!");
 
 
     divs.forEach( function (div) {
-        letscale = randomNumber(.5, 1.2);
-        lettranslateX = randomNumber(0, 50);
-        lettranslateY = randomNumber(0, 20);
-        letrotate = randomNumber(0, 360);
+        let scale = randomNumber(.5, 1.2);
+        let translateX = randomNumber(0, 50);
+        let translateY = randomNumber(0, 20);
+        let rotate = randomNumber(0, 360);
 
     
         if (Math.random() > .5) {
